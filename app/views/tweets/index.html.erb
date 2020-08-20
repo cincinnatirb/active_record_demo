@@ -14,7 +14,7 @@
   <tbody>
     <% @tweets.each do |tweet| %>
       <tr>
-        <td><%= tweet.username %></td>
+      <td><%= link_to tweet.user.username, user_path(tweet.user) %></td>
         <td><%= tweet.message %></td>
         <td><%= link_to 'Show', tweet %></td>
         <td><%= link_to 'Edit', edit_tweet_path(tweet) %></td>

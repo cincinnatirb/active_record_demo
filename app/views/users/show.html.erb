@@ -10,5 +10,24 @@
   <%= @user.bio %>
 </p>
 
+<h2>Tweets</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Message</th>
+      <th>Posted</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user.tweets.each do |tweet| %>
+      <tr>
+        <td><%= tweet.message %></td>
+        <td><%= tweet.created_at %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
