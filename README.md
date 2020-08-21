@@ -10,6 +10,8 @@ In this demo we will:
 * Learn how define Rake tasks
 * Use the Rails console
 
+**NOTE:** You can watch a presentation of this material [here](https://www.youtube.com/watch?v=Bc9FVW86xUU).
+
 ## 1. Prerequisites
 * Ubuntu 20 LTS: https://www.youtube.com/watch?v=I8WhikkiiSI
 * Ruby, Node and Yarn: https://www.youtube.com/watch?v=C_xhTo9bw0s
